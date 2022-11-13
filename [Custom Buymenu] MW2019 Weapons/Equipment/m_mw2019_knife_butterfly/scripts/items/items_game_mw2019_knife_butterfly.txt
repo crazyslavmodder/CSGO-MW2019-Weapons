@@ -23,7 +23,7 @@
 			"attributes"
 			{
 				"icon display model"		"models/weapons/w_me_butterfly.mdl"
-				"pedestal display model"		"models/weapons/v_knife_default_t_inspect.mdl"
+				"pedestal display model"		"models/weapons/v_me_knife_butterfly_inspect.mdl"
 			}
 		}
 	}

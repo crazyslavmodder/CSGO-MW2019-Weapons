@@ -7,7 +7,7 @@
 			"prefab"		"sniper_rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"Dragunov"
-			"item_description"		"Dragunov"
+			"item_description"		"A soviet workhorse chambered in 7.62mm x 54mmR. This gas-operated, semi-automatic sniper rifle allows for rapid follow-up shots."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/svd"
 			"model_player"		"models/weapons/v_sn_svd.mdl"

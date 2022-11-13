@@ -7,7 +7,7 @@
 			"prefab"		"shotgun"
 			"item_class"		"weapon_sawedoff"
 			"item_name"		"Model 680"
-			"item_description"		"Model 680"
+			"item_description"		"A reliable, well-rounded 12 gauge pump-action shotgun."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/model680"
 			"model_player"		"models/weapons/v_sh_model680.mdl"

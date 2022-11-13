@@ -7,7 +7,7 @@
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"AN-94"
-			"item_description"		"AN-94 MW2019"
+			"item_description"		"Cutting edge 5.45x39mm Russian assault rifle with a unique hyperburst feature. The initial shot from each trigger pull fires a rapid 2-round burst before perceived recoil is felt, creating a tightly grouped cluster with increased damage potential. This mechanism is fed by a canted magazine, and a reciprocating receiver helps keep control of the recoil."
 			"item_rarity"		"common"
 			"image_inventory"		"mw2019_weapons/an94"
 			"model_player"		"models/weapons/v_ar_an94.mdl"

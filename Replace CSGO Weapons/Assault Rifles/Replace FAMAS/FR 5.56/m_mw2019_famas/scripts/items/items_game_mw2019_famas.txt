@@ -7,7 +7,7 @@
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"FR 5.56"
-			"item_description"		"Famas Modern Warfare"
+			"item_description"		"A 3 round burst bullpup assault rifle. A well placed burst can be extremely deadly at intermittent ranges."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/fr556"
 			"model_player"		"models/weapons/v_ar_famas.mdl"

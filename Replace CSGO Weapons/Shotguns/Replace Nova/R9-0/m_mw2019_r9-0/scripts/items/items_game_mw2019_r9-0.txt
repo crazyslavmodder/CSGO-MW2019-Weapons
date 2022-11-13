@@ -7,7 +7,7 @@
 			"prefab"		"shotgun"
 			"item_class"		"weapon_sawedoff"
 			"item_name"		"R9-0 Shotgun"
-			"item_description"		"R9-0 Shotgun"
+			"item_description"		"Double barrels provide two rapid shots before each re-chamber."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/r90"
 			"model_player"		"models/weapons/v_sh_r90.mdl"

@@ -7,7 +7,7 @@
 			"prefab"		"machinegun"
 			"item_class"		"weapon_deagle"
 			"item_name"		"SA87"
-			"item_description"		"SA87"
+			"item_description"		"A fully automatic bullpup light machine gun. Lower rate of fire and 5.56mm ammunition keep this rifle stable and effective at long ranges."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/sa87"
 			"model_player"		"models/weapons/v_lm_sa87.mdl"

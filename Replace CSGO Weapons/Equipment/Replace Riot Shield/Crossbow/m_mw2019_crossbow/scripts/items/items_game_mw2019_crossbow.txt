@@ -7,7 +7,7 @@
 			"prefab"		"sniper_rifle"
 			"item_class"		"weapon_awp"
 			"item_name"		"Crossbow"
-			"item_description"		"Crossbow"
+			"item_description"		"Silent and agile, this high-performance crossbow fires 20.0" bolts with exceptional lethality. Exclusive customization, distinct functionality, and unique ammunition types put this weapon in a class of its own. Standard 20.0" bolts are recoverable, and are undetectable by trophy systems."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/crossbow"
 			"model_player"		"models/weapons/v_sn_crossbow.mdl"

@@ -10,8 +10,8 @@
 			"item_description"		"Restores 25 units of user's armor."
 			"icon_default_image"		"materials/icons/inventory_icon_weapon_shield.vtf"
 			"item_quality"		"normal"
-			"item_gear_slot"		"boost"
-			"item_gear_slot_position"		"2"
+			"item_gear_slot"		"utility"
+			"item_gear_slot_position"		"1"
 			"attributes"
 			{
 				"in game price"		"500"

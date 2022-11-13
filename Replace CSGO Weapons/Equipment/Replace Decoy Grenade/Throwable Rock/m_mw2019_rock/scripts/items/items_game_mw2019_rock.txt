@@ -20,6 +20,8 @@
 			"model_player"		"models/weapons/v_rock.mdl"
 			"model_world"		"models/weapons/w_rock.mdl"
 			"model_dropped"		"models/weapons/w_rock_dropped.mdl"
+			"item_gear_slot"		"boost"
+			"item_gear_slot_position"		"1"
 			"used_by_classes"
 			{
 				"terrorists"		"1"

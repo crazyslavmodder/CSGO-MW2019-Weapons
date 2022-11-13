@@ -7,7 +7,7 @@
 			"prefab"		"machinegun"
 			"item_class"		"weapon_deagle"
 			"item_name"		"M91"
-			"item_description"		"M91"
+			"item_description"		"Robust light machine gun sacrifices mobility for stability. High caliber sustained fire will neutralize targets at long ranges."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/m91"
 			"model_player"		"models/weapons/v_lm_m91.mdl"
@@ -76,6 +76,9 @@
 				"recovery time crouch final"		"0.592093"
 				"recovery time stand final"		"0.828931"
 				"spread alt"		"2.000000"
+				"attack movespeed factor"		"1.000000"
+				"inaccuracy pitch shift"		"0.000000"
+				"inaccuracy alt sound threshold"		"0.000000"
 			}
 
 			"visuals"
@@ -90,6 +93,7 @@
 				"player_animation_extension"		"m249"
 				"primary_ammo"		"BULLET_PLAYER_556MM_BOX"
 				"sound_single_shot"		"Weapon_M91.Single"
+				"sound_single_shot_accurate"		"Weapon_M91.Single"
 				"sound_nearlyempty"		"Default.nearlyempty"
 			}
 		}

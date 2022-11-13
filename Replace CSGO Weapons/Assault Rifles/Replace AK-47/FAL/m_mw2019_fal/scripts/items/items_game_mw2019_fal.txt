@@ -7,7 +7,7 @@
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"FAL"
-			"item_description"		"FAL MW2019"
+			"item_description"		"A semi-automatic assault rifle with a high rate of fire for faster follow up shots."
 			"item_rarity"		"uncommon"
 			"image_inventory"		"mw2019_weapons/fal"
 			"model_player"		"models/weapons/v_ar_fal.mdl"

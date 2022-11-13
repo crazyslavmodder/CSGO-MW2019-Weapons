@@ -7,7 +7,7 @@
 			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
 			"item_name"		"ISO"
-			"item_description"		"ISO"
+			"item_description"		"Precision crafted 9mm submachine gun with a fast rate of fire. This lightweight and reliable firearm is designed to control the close-range battlefield."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/iso"
 			"model_player"		"models/weapons/v_sm_iso.mdl"

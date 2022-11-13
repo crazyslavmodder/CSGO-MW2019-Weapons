@@ -7,7 +7,7 @@
 			"prefab"		"sniper_rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"HDR"
-			"item_description"		"HDR"
+			"item_description"		"An anti-material bolt action sniper rifle chambered in 12.7x108mm ammunition. 745 gr bullets have a lower muzzle velocity, but are devastating at very long ranges."
 			"item_rarity"		"rare"
 			"model_player"		"models/weapons/v_sn_hdr.mdl"
 			"model_world"		"models/weapons/w_sn_hdr.mdl"

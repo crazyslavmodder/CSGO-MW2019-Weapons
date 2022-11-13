@@ -7,7 +7,7 @@
 			"prefab"		"secondary"
 			"item_class"		"weapon_elite"
 			"item_name"		"M1911 | Akimbo"
-			"item_description"		"M1911 Akimbo"
+			"item_description"		"Well-rounded, semi-automatic sidearms with a moderate rate of fire. Slightly more range than your average .45 ACP pistol."
 			"item_rarity"		"uncommon"
 			"image_inventory"		"mw2019_weapons/m1911_akimbo"
 			"model_player"		"models/weapons/v_pi_m1911_akimbo.mdl"

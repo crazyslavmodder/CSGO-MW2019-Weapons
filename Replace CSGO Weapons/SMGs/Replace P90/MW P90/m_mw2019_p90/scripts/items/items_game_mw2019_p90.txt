@@ -7,7 +7,7 @@
 			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
 			"item_name"		"P90"
-			"item_description"		"P90 Modern Warfare"
+			"item_description"		"An automatic bullpup submachine gun. The unique top mounted magazine hold carries ample high velocity 5.7 x 28mm ammunition."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/p90"
 			"model_player"		"models/weapons/v_sm_p90.mdl"

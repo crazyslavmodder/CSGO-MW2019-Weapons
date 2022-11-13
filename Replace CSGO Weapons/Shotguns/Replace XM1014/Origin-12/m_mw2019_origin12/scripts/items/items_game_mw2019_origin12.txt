@@ -7,7 +7,7 @@
 			"prefab"		"shotgun"
 			"item_class"		"weapon_deagle"
 			"item_name"		"Origin-12"
-			"item_description"		"Origin-12"
+			"item_description"		"A semi-automatic shotgun with a large ammo capacity allows for continuous firing. Effective at close range."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/origin12"
 			"model_player"		"models/weapons/v_sh_origin12.mdl"

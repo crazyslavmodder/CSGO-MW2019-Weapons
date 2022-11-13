@@ -7,7 +7,7 @@
 			"prefab"		"machinegun"
 			"item_class"		"weapon_deagle"
 			"item_name"		"Holger-26"
-			"item_description"		"Holger-26"
+			"item_description"		"A versatile fully automatic 5.56mm light machine gun. Modular design can be configured for a broad range of engagements."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/holger26"
 			"model_player"		"models/weapons/v_lm_holger26.mdl"

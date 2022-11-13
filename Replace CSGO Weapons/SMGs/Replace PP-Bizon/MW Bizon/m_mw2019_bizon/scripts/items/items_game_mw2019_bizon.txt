@@ -7,7 +7,7 @@
 			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
 			"item_name"		"PP-19 Bizon"
-			"item_description"		"Bizon Modern Warfare"
+			"item_description"		"Well-balanced automatic submachine gun with a high capacity helical magazine."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/bizon"
 			"model_player"		"models/weapons/v_sm_bizon.mdl"

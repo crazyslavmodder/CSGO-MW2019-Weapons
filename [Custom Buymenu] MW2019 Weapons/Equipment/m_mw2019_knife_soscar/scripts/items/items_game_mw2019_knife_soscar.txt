@@ -9,7 +9,7 @@
 			"item_description"		"A CQC tactical knife. Standard military issue, employed for fast, quiet, and deadly wetwork."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/knife_combat"
-			"model_player"		"models/weapons/v_me_knife.mdl"
+			"model_player"		"models/weapons/v_me_knife_soscar.mdl"
 			"model_world"		"models/weapons/w_me_soscar.mdl"
 			"model_dropped"		"models/weapons/w_me_soscar_dropped.mdl"
 			"stickers"
@@ -23,7 +23,7 @@
 			"attributes"
 			{
 				"icon display model"		"models/weapons/w_knife_default_t.mdl"
-				"pedestal display model"		"models/weapons/v_knife_default_t_inspect.mdl"
+				"pedestal display model"		"models/weapons/v_me_knife_soscar_inspect.mdl"
 			}
 		}
 	}

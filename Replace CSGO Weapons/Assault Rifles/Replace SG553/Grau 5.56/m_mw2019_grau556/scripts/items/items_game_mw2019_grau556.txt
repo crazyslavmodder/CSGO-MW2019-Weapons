@@ -24,6 +24,7 @@
 			{
 				"magazine model"		"models/weapons/w_ar_grau556_mag.mdl"
 				"aimsight lens mask"		"models/shells/mw2019/shell_rifle.mdl"
+				"aimsight capable"		"0"
 				"primary reserve ammo max"		"90"
 				"tracer frequency alt"		"3"
 				"inaccuracy jump initial"		"78.790001"

@@ -7,7 +7,7 @@
 			"prefab"		"machinegun"
 			"item_class"		"weapon_deagle"
 			"item_name"		"FiNN LMG"
-			"item_description"		"FiNN LMG"
+			"item_description"		"An ultra-light open bolt 5.56 machine gun with a low cyclic rate and advanced recoil controls, giving the FiNN exceptional full-auto accuracy."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/finn"
 			"model_player"		"models/weapons/v_lm_finn.mdl"

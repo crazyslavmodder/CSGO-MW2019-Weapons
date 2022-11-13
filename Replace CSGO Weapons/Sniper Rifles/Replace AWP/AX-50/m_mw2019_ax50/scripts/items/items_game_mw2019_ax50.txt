@@ -7,7 +7,7 @@
 			"prefab"		"sniper_rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"AX-50"
-			"item_description"		"AX-50"
+			"item_description"		"Hard hitting, bolt action sniper rifle with .50 cal BMG ammunition. Its tungsten sabot tipped bullets are fast and powerful, but require precise shots over long distances."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/ax50"
 			"model_player"		"models/weapons/v_sn_ax50.mdl"

@@ -166,7 +166,6 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"  		"SNDLVL_65dB"
-    "rndwave"
     "wave"			")equipments/mine/proxy_plant_01.wav"
 	"hrtf_follow"		"1"
 	"soundentry_version" "2"
@@ -188,3 +187,65 @@
 	}
 }
 
+"Survival.BumpMineThrow"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			")equipments/mine/proxy_throw.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Survival.BumpMineSetArmed"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+    "wave"			")equipments/mine/proxy_plant_01.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Survival.BumpIdle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"		"SNDLVL_70dB"
+	"wave"		"common\null.wav"
+}

@@ -7,7 +7,7 @@
 			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
 			"item_name"		"MP7"
-			"item_description"		"MP7"
+			"item_description"		"Compact by design, this fully automatic weapon has a high rate of fire and low recoil."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/mp7"
 			"model_player"		"models/weapons/v_sm_mp7.mdl"

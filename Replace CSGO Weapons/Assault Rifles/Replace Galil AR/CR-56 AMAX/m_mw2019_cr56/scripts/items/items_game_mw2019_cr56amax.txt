@@ -7,7 +7,7 @@
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"CR-56 AMAX"
-			"item_description"		"This modular 5.56 weapon platform is lightweight and maneuverable, with exceptional range. Precision engineering and world class aftermarket barrels give this weapon extreme potential."
+			"item_description"		"This lightweight 7.62 x 39mm full auto assault rifle is compact and powerful. Built exclusively for military use, the standard issue rifle is deadly at mid range combat and easily configured for a variety of assault tactics."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/cr56amax"
 			"model_player"		"models/weapons/v_ar_cr56amax.mdl"

@@ -7,7 +7,7 @@
 			"prefab"		"secondary"
 			"item_class"		"weapon_elite"
 			"item_name"		"Renetti | Akimbo"
-			"item_description"		"Renetti Akimbo"
+			"item_description"		"Well rounded semi-auto 9mm pistols. These unassuming sidearms excel in close range combat, and features gunsmithing capabilities unique to the pistol class that permit a variety of engagement strategies."
 			"item_rarity"		"uncommon"
 			"image_inventory"		"mw2019_weapons/renetti_akimbo"
 			"model_player"		"models/weapons/v_pi_renetti_akimbo.mdl"

@@ -7,7 +7,7 @@
 			"prefab"		"sniper_rifle"
 			"item_class"		"weapon_sawedoff"
 			"item_name"		"MK2 Carbine"
-			"item_description"		"MK2 Carbine"
+			"item_description"		"Highly accurate lever action rifle. Will neutralize an enemy with one well placed round to the head or chest."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/mk2"
 			"model_player"		"models/weapons/v_sn_mk2.mdl"

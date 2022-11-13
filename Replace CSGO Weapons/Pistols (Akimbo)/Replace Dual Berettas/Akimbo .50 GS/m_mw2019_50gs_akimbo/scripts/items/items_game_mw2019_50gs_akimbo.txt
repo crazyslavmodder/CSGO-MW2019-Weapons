@@ -7,7 +7,7 @@
 			"prefab"		"secondary"
 			"item_class"		"weapon_elite"
 			"item_name"		".50 GS | Akimbo"
-			"item_description"		"Desert Eagle Akimbo"
+			"item_description"		"The most powerful semi-automatic handguns available, deals heavy damage up to intermediate ranges."
 			"item_rarity"		"uncommon"
 			"image_inventory"		"mw2019_weapons/50gs_akimbo"
 			"model_player"		"models/weapons/v_pi_50gs_akimbo.mdl"

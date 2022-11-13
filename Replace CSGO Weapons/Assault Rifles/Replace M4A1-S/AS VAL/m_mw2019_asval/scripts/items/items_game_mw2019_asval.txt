@@ -7,7 +7,7 @@
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"AS VAL"
-			"item_description"		"Russia rifle ASVAL"
+			"item_description"		"Chambered in subsonic 9x39mm and integrally suppressed, the AS VAL is a powerhouse built for stealth, accuracy, and penetration. This weapon will excel in the hands of an operator able to control heavy recoil and a high rate of fire."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/asval"
 			"model_player"		"models/weapons/v_ar_asval.mdl"

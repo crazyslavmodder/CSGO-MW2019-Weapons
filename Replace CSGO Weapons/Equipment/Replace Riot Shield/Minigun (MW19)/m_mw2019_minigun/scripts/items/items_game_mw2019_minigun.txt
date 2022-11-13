@@ -8,7 +8,7 @@
 			"item_class"		"weapon_deagle"
 			"item_name"		"Minigun"
 			"item_description"		"Minigun"
-			"item_rarity"		"rare"
+			"item_rarity"		"uncommon"
 			"model_player"		"models/weapons/v_lm_minigun.mdl"
 			"model_world"		"models/weapons/w_lm_minigun.mdl"
 			"model_dropped"		"models/weapons/w_lm_minigun_dropped.mdl"

@@ -7,7 +7,7 @@
 			"prefab"		"shotgun"
 			"item_class"		"weapon_deagle"
 			"item_name"		"VLK Rogue"
-			"item_description"		"VLK Rogue"
+			"item_description"		"An agile 12-gauge mag fed shotgun from VLK with extensive options to modify range, stability, and maneuverability."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/vlkrogue"
 			"model_player"		"models/weapons/v_sh_vlkrogue.mdl"

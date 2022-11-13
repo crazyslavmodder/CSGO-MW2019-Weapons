@@ -35,7 +35,7 @@
 				"addon scale"		"0.900000"
 				"max player speed"		"215"
 				"max player speed alt"		"120"
-				"is full auto"		"1"
+				"is full auto"		"0"
 				"in game price"		"5000"
 				"armor ratio"		"1.650000"
 				"crosshair min distance"		"6"

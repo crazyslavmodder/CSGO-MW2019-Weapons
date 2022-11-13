@@ -7,7 +7,7 @@
 			"prefab"		"secondary"
 			"item_class"		"weapon_elite"
 			"item_name"		"X16 | Akimbo"
-			"item_description"		"X16 Akimbo"
+			"item_description"		"Semi-automatic pistols chambered in .45 ACP ammunition. A reliable fallback when you find yourself in close quarters."
 			"item_rarity"		"uncommon"
 			"image_inventory"		"mw2019_weapons/x16_akimbo"
 			"model_player"		"models/weapons/v_pi_x16_akimbo.mdl"

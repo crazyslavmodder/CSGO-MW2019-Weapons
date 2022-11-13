@@ -7,7 +7,7 @@
 			"prefab"		"secondary"
 			"item_class"		"weapon_elite"
 			"item_name"		"Sykov | Akimbo"
-			"item_description"		"Sykov Akimbo"
+			"item_description"		"A dependable fallback in close quarters, these double-action/single-action sidearms come with a few custom gunsmith mods that make it an outstanding addition to any arsenal."
 			"item_rarity"		"uncommon"
 			"image_inventory"		"mw2019_weapons/sykov_akimbo"
 			"model_player"		"models/weapons/v_pi_sykov_akimbo.mdl"

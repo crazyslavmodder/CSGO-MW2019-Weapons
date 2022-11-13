@@ -7,7 +7,7 @@
 			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
 			"item_name"		"Fennec"
-			"item_description"		"Fennec"
+			"item_description"		"An aggressive full auto submachine gun with buttery smooth recoil and a blazing fast rate of fire that is exceptional for strategic room clearing and holding down the front line."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/fennec"
 			"model_player"		"models/weapons/v_sm_fennec.mdl"
@@ -32,6 +32,7 @@
 				"tracer frequency"		"3"
 				"max player speed"		"230"
 				"is full auto"		"1"
+				"has silencer"		"0"
 				"in game price"		"2350"
 				"armor ratio"		"1.380000"
 				"crosshair min distance"		"7"
@@ -79,7 +80,9 @@
 			"visuals"
 			{
 				"muzzle_flash_effect_1st_person"		"AC_muzzle_fennec"
+				"muzzle_flash_effect_1st_person_alt"		"AC_muzzle_fennec"
 				"muzzle_flash_effect_3rd_person"		"AC_muzzle_fennec"
+				"muzzle_flash_effect_3rd_person_alt"		"AC_muzzle_fennec"
 				"heat_effect"		"AC_muzzle_fennec_smoke"
 				"addon_location"		"primary_smg"
 				"eject_brass_effect"		"cod_shell_smg"
@@ -87,7 +90,9 @@
 				"weapon_type"		"SubMachinegun"
 				"player_animation_extension"		"p90"
 				"primary_ammo"		"BULLET_PLAYER_57MM"
+				"secondary_ammo"		"BULLET_PLAYER_57MM"
 				"sound_single_shot"		"Weapon_Fennec.Single"
+				"sound_special1"		"Weapon_Fennec.Single"
 				"sound_nearlyempty"		"Default.nearlyempty"
 			}
 		}

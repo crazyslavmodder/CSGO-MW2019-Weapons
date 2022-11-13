@@ -4,10 +4,10 @@
 	{
 		"weapon_ump45_prefab"
 		{
-			"prefab"		"rifle"
+			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
 			"item_name"		"AUG 9MM"
-			"item_description"		"AUG 9MM"
+			"item_description"		"A modular, fully automatic weapon configured for mobility and close range combat."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/aug"
 			"model_player"		"models/weapons/v_sm_aug.mdl"
@@ -26,7 +26,7 @@
 				"magazine model"		"models/weapons/w_sm_aug_mag.mdl"
 				"aimsight lens mask"		"models/shells/mw2019/shell_pistol.mdl"
 				"primary reserve ammo max"		"120"
-				"has silencer"		"2"
+				"has silencer"		"0"
 				"inaccuracy jump initial"		"55.410000"
 				"inaccuracy jump"		"59.599998"
 				"heat per shot"		"0.350000"

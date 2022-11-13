@@ -2,12 +2,12 @@
 {
 	"prefabs"
 	{
-		"weapon_m4a1_prefab"
+		"weapon_m13_prefab"
 		{
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"M13"
-			"item_description"		"M13"
+			"item_description"		"Automatic assault rifle featuring a short stroke piston system that keeps the fire rate high and the recoil low."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/m13"
 			"model_player"		"models/weapons/v_ar_m13.mdl"
@@ -35,7 +35,7 @@
 				"inaccuracy jump alt"		"97.269997"
 				"heat per shot"		"0.350000"
 				"addon scale"		"1.000000"
-				"has silencer"        "2"
+				"has silencer"        "0"
 				"tracer frequency"		"3"
 				"max player speed"		"225"
 				"is full auto"		"1"

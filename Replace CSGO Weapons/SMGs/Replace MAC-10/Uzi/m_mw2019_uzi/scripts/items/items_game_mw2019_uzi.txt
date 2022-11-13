@@ -7,7 +7,7 @@
 			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
 			"item_name"		"Uzi"
-			"item_description"		"Uzi MW2019"
+			"item_description"		"A fully automatic open bolt submachine gun. Simple, steady, effective."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/uzi"
 			"model_player"		"models/weapons/v_sm_uzi.mdl"

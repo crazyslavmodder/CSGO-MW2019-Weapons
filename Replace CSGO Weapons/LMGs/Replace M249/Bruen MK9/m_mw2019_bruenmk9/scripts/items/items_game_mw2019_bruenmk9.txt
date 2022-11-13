@@ -7,7 +7,7 @@
 			"prefab"		"machinegun"
 			"item_class"		"weapon_deagle"
 			"item_name"		"Bruen MK9"
-			"item_description"		"Bruen MK9"
+			"item_description"		"This air-cooled open bolt 5.56 light machine gun features a competitive rate of fire and excellent stability that will dominate the mid to long range battlefield."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/bruenmk9"
 			"model_player"		"models/weapons/v_lm_bruenmk9.mdl"

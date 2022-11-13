@@ -1,0 +1,31 @@
+{
+	"name": "[Modern Warfare] Rock",
+	"authors":
+	[
+		{
+			"name": "Stomatolog", 
+			"social": "steamcommunity.com/id/StomatologCSS", 
+			"role": "Model extraction, MIGI addons, textures"
+		},
+		{
+			"name": "Activision", 
+			"social": "activision.com", 
+			"role": "Original assets"
+		},
+		{
+			"name": "Luttz", 
+			"role": "COD Rig for CSGO, scripts, mix sounds"
+		},
+		{
+			"name": "CrazySlavModder", 
+			"social": "youtube.com/channel/UCikZnb4OWnQmwzNkZE6hBRA", 
+			"role": "VScripts, inventory inspection, custom buymenu creator"
+		},
+		{
+			"name": "AlbanyKnight", 
+			"social": "youtube.com/channel/UCP_QZdt3QqwZvdKUqpsrnqw", 
+			"role": "Weapon stats & balancing"
+		}
+	],
+	"replacement": "Custom weapon"
+}

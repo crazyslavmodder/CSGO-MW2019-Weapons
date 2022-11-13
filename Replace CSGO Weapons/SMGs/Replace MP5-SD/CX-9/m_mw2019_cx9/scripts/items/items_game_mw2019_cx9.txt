@@ -7,7 +7,7 @@
 			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
 			"item_name"		"CX-9"
-			"item_description"		"cx9"
+			"item_description"		"Excellent maneuverability and a fast fire rate make this blowback-operated SMG a formidable weapon in close-quarters engagements."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/cx9"
 			"model_player"		"models/weapons/v_sm_cx9.mdl"
@@ -32,6 +32,7 @@
 				"tracer frequency"		"3"
 				"max player speed"		"230"
 				"is full auto"		"1"
+				"has silencer"		"0"
 				"in game price"		"2350"
 				"armor ratio"		"1.380000"
 				"crosshair min distance"		"7"
@@ -79,7 +80,9 @@
 			"visuals"
 			{
 				"muzzle_flash_effect_1st_person"		"AC_muzzle_uzi"
+				"muzzle_flash_effect_1st_person_alt"		"AC_muzzle_uzi"
 				"muzzle_flash_effect_3rd_person"		"AC_muzzle_uzi"
+				"muzzle_flash_effect_3rd_person_alt"		"AC_muzzle_uzi"
 				"heat_effect"		"AC_muzzle_desert_smoke"
 				"addon_location"		"primary_smg"
 				"eject_brass_effect"		"cod_shell_smg"
@@ -87,7 +90,9 @@
 				"weapon_type"		"SubMachinegun"
 				"player_animation_extension"		"mac10"
 				"primary_ammo"		"BULLET_PLAYER_45ACP"
+				"secondary_ammo"		"BULLET_PLAYER_45ACP"
 				"sound_single_shot"		"Weapon_CX9.Single"
+				"sound_special1"		"Weapon_CX9.Single"
 				"sound_nearlyempty"		"Default.nearlyempty"
 			}
 		}

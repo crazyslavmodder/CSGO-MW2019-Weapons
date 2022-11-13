@@ -7,7 +7,7 @@
 			"prefab"		"secondary"
 			"item_class"		"weapon_deagle"
 			"item_name"		"Revolver 357 | Akimbo"
-			"item_description"		"Akimbo Revolver 357"
+			"item_description"		"Double action revolvers firing .357 Magnum ammunition for powerful damage over extended ranges."
 			"item_rarity"		"uncommon"
 			"image_inventory"		"mw2019_weapons/357_akimbo"
 			"model_player"		"models/weapons/v_pi_357_akimbo.mdl"

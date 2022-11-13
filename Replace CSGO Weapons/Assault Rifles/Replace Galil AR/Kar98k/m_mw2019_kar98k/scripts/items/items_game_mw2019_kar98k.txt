@@ -7,7 +7,7 @@
 			"prefab"		"sniper_rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"Kar98k"
-			"item_description"		"kar98k"
+			"item_description"		"Bolt action rifle chambered in 7.92 Mauser. A WW2 relic that is still extremely lethal in the hands of a rebel marksman."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/kar98k"
 			"model_player"		"models/weapons/v_sn_kar98k.mdl"
@@ -18,7 +18,6 @@
 			}
 			"used_by_classes"
 			{
-				"counter-terrorists"		"1"
 				"terrorists"		"1"
 			}
 			"inventory_image_data"
@@ -45,6 +44,7 @@
 				"addon scale"		"0.900000"
 				"max player speed"		"230"
 				"max player speed alt"		"230"
+				"is full auto"		"0"
 				"in game price"		"1700"
 				"armor ratio"		"1.700000"
 				"penetration"		"2.500000"

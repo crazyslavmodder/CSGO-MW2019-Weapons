@@ -7,7 +7,7 @@
 			"prefab"		"secondary"
 			"item_class"		"weapon_elite"
 			"item_name"		"M19 | Akimbo"
-			"item_description"		"m19 Akimbo"
+			"item_description"		"Semi-automatic 9mm pistols, excellent stability with a rapid cycle rate."
 			"item_rarity"		"uncommon"
 			"image_inventory"		"mw2019_weapons/m19_akimbo"
 			"model_player"		"models/weapons/v_pi_m19_akimbo.mdl"
