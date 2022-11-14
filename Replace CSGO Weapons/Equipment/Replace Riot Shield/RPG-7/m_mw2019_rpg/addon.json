@@ -1,0 +1,26 @@
+{
+	"name": "[Modern Warfare] RPG-7",
+	"authors":
+	[
+		{
+			"name": "CrazySlavModder",
+			"social": "youtube.com/channel/UCikZnb4OWnQmwzNkZE6hBRA",
+			"role": "Base addon, third-person models, VScripts, inventory inspection"
+		},
+		{
+			"name": "ZooL Smith",
+			"social": "youtube.com/channel/UCOmYd1qy5qOyAXvK4p0LYfw",
+			"role": "Rocket Launcher VScript"
+		},
+		{
+			"name": "Stomatolog",
+			"social": "youtube.com/c/StomatologCSS",
+			"role": "Sound scripts, assets porting"
+		},
+		{
+			"name": "Lutzz",
+			"role": "Assets porting, materials mixing"
+		}
+	],
+	"replacement": "Riot Shield"
+}
