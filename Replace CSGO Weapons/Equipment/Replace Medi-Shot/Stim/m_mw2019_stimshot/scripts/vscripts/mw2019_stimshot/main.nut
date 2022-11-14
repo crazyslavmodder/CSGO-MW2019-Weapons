@@ -47,7 +47,6 @@ function MW2019_Stim_Check()
 				ply.__KeyValueFromFloat("gravity", 1.0);
 				continue;
 			}
-			
 			EntFireByHandle(MW2019_speedmod, "ModifySpeed", "1.2", 0, ply, ply);
 			ply.__KeyValueFromFloat("gravity", 0.9);
 		}
@@ -102,6 +101,16 @@ function MW2019_Stim_Check()
 			EntFireByHandle(MW2019_maxHealthMSG, "HideHudHint", "", 3.0, ply, ply);
 		}
 	}
+}
+
+function OnNewRound()
+{
+	SendToConsoleServer("sv_health_approach_enabled 0");
+	SendToConsoleServer("healthshot_healthboost_time 0");
+	SendToConsoleServer("healthshot_health 0");
+	SendToConsoleServer("healthshot_healthboost_speed_multiplier 1.0");
+	SendToConsoleServer("healthshot_healthboost_damage_multiplier 1.0");
+	SendToConsoleServer("sv_health_approach_speed 0");
 }
 
 MW2019_Stim_Timer <- Entities.CreateByClassname("logic_timer")

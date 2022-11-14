@@ -34,17 +34,17 @@
 			"item_orient"	   "0.0 0.0 0.0"									// initial orientation of item (if not attached)
 		}
 	}
-	"SMGs"
+	"Rifles"
 	{
 		"rule"
 		{
-			"type" "SubMachinegun"
+			"type" "Rifle"
 		}
 		"config"
 		{
-			"camera_offset"   "43.08 19.85 -6.68"
-			"camera_orient"   "0.23 -128.48 0.00"
-			"orbit_pivot"     "22.67 -5.83 -6.81"
+			"camera_offset"   "40.16 25.73 -4.63"
+			"camera_orient"   "1.80 -124.98 0.00"
+			"orbit_pivot"     "12.14 -14.32 -6.17"
 			"item_rotate"	  "y[-360 360] x[ 0 0 ]"
 		}
 	}
