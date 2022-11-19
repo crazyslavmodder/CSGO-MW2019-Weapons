@@ -22,4 +22,4 @@ function VM_PILA_GetAnim(vm)
 }
 
 MIGI_InitDeployWeapon("models/weapons/v_la_pila.mdl", "weapon_ump45", [3], "basic", null)
-MIGI_Projectile(10, 0.9, 2100, "weapon_pila", 1050, 350, 1.0, 60.0, 2.0, 10.0, 90.0, null, null, null, null, null, 700, false, "PILA", "prop_dynamic", "models/weapons/w_la_pila_rocket.mdl", "models/weapons/v_la_pila.mdl", "Weapon_PILA.Explode", "Weapon_PILA.Travel", this.VM_PILA_GetAnim)
+MIGI_Projectile(10, 0.9, 2200, "weapon_pila", 1050, 350, 1.0, 35.0, 3.5, 12.0, 7.0, null, null, null, null, null, 550, false, "PILA", "prop_dynamic", "models/weapons/w_la_pila_rocket.mdl", "models/weapons/v_la_pila.mdl", "Weapon_PILA.Explode", "Weapon_PILA.Travel", this.VM_PILA_GetAnim)

@@ -114,6 +114,17 @@
 			}
 			"attributes"
 			{
+				"inaccuracy jump initial"		"24.0"
+				"inaccuracy jump"		"24.0"
+				"inaccuracy jump apex"		"24.0"
+				"inaccuracy jump alt"		"24.0"
+				"inaccuracy crouch"		"1.0"
+				"inaccuracy stand"		"3.0"
+				"inaccuracy move"		"8.0"
+				"inaccuracy crouch alt"		"1.0"
+				"inaccuracy stand alt"		"3.0"
+				"inaccuracy move alt"		"8.0"
+				
 				"primary reserve ammo max"		"6"
 				"primary clip size"		"6"
 				"in game price"		"10000"

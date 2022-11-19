@@ -22,4 +22,4 @@ function VM_RPG_GetAnim(vm)
 }
 
 MIGI_InitDeployWeapon("models/weapons/v_la_rpg.mdl", "weapon_ump45", [3], "basic", null)
-MIGI_Projectile(10, 0.9, 2700, "weapon_rpg", 600, 200, 1.0, 60.0, 2.0, 10.0, 90.0, null, null, null, null, null, 550, false, "RPG", "prop_dynamic", "models/weapons/w_la_rpg_rocket.mdl", "models/weapons/v_la_rpg.mdl", "Weapon_RPG.Explode", "Weapon_RPG.Travel", this.VM_RPG_GetAnim)
+MIGI_Projectile(10, 0.9, 2700, "weapon_rpg", 600, 200, 1.0, 30.0, 2.0, 10.0, 5.0, null, null, null, null, null, 450, false, "RPG", "prop_dynamic", "models/weapons/w_la_rpg_rocket.mdl", "models/weapons/v_la_rpg.mdl", "Weapon_RPG.Explode", "Weapon_RPG.Travel", this.VM_RPG_GetAnim)

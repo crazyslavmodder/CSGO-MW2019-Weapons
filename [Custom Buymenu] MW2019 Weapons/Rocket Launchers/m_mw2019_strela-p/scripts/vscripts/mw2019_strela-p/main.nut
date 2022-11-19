@@ -22,4 +22,4 @@ function VM_STRELA_GetAnim(vm)
 }
 
 MIGI_InitDeployWeapon("models/weapons/v_la_strela-p.mdl", "weapon_ump45", [3], "basic", null)
-MIGI_Projectile(10, 0.9, 2600, "weapon_strela", 500, 200, 1.0, 60.0, 2.0, 10.0, 90.0, null, null, null, null, null, 650, false, "STRELA", "prop_dynamic", "models/weapons/w_la_strela-p_rocket.mdl", "models/weapons/v_la_strela-p.mdl", "Weapon_STRELA-P.Explode", "Weapon_STRELA-P.Travel", this.VM_STRELA_GetAnim)
+MIGI_Projectile(10, 0.9, 2600, "weapon_strela", 500, 200, 1.0, 30.0, 2.0, 10.0, 5.0, null, null, null, null, null, 650, false, "STRELA", "prop_dynamic", "models/weapons/w_la_strela-p_rocket.mdl", "models/weapons/v_la_strela-p.mdl", "Weapon_STRELA-P.Explode", "Weapon_STRELA-P.Travel", this.VM_STRELA_GetAnim)
