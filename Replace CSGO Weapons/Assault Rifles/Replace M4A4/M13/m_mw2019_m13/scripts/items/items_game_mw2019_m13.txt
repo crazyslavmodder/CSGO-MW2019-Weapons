@@ -2,7 +2,7 @@
 {
 	"prefabs"
 	{
-		"weapon_m13_prefab"
+		"weapon_m4a1_prefab"
 		{
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"

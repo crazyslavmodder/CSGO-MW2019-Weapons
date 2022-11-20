@@ -4,6 +4,13 @@ MW2019_Heal_HP <- 50;
 MW2019_MaxHealth <- 100;
 MW2019_MaxHealth_String <- "#SFUI_Healthshot_AlreadyAtMax"
 
+SendToConsole("healthshot_health 0");
+SendToConsoleServer("sv_health_approach_enabled 0");
+SendToConsoleServer("healthshot_healthboost_time 0");
+SendToConsoleServer("healthshot_healthboost_speed_multiplier 1.0");
+SendToConsoleServer("healthshot_healthboost_damage_multiplier 1.0");
+SendToConsoleServer("sv_health_approach_speed 0");
+
 function MW2019_Stimshot_animTrack(vm)
 {
 	local anim_track = vm.LookupAttachment("a_flag");
@@ -51,20 +58,8 @@ function MW2019_Stim_Check()
 			ply.__KeyValueFromFloat("gravity", 0.9);
 		}
 		
-		local stimToKill = null;
-		local stimWeapon = null;
-		while (stimWeapon = Entities.FindByModel(stimWeapon, MW2019_Stimshot_MDL))
-		{
-			if (stimWeapon.GetClassname() == "weapon_healthshot" && stimWeapon.GetOwner() == ply)
-			{
-				stimToKill = stimWeapon;
-				break;
-			}
-		}
-		
 		if(vm.GetModelName() != MW2019_Stimshot_MDL)
 		{
-			if (stimScope.IsStimshotUsed == true && ply.GetHealth() > 0) EntFireByHandle(stimToKill, "Kill", "", 0, ply, ply);
 			stimScope.IsStimshotUsed = false;
 			stimScope.canUseStimshot = true;
 			continue;
@@ -78,23 +73,23 @@ function MW2019_Stim_Check()
 			stimScope.canUseStimshot = false;
 			stimScope.StimshotLeave = false;
 			stimScope.StimshotTime = Time();
-			
 			local curPlayerHP = ply.GetHealth();
 			if (curPlayerHP >= MW2019_MaxHealth) continue;
 			if (curPlayerHP + MW2019_Heal_HP > MW2019_MaxHealth) ply.SetHealth(MW2019_MaxHealth)
 			else ply.SetHealth(curPlayerHP + MW2019_Heal_HP);
 			continue;
 		}
+		
 		if (stimAnimState == "cancel" && stimScope.StimshotLeave == false)
 		{
 			stimScope.StimshotLeave = true;
 			EntFireByHandle(MW2019cmd_client, "Command", "slot3;slot2;slot1;slot0", 0.1, ply, ply);
 			continue;
 		}
-		
 		if (ply.GetHealth() >= MW2019_MaxHealth && stimScope.canUseStimshot == true)
 		{
 			ply.StopSound("Equipment_Stimshot.Use");
+			vm.StopSound("Equipment_Stimshot.Use");
 			EntFireByHandle(MW2019cmd_client, "Command", "slot3;slot2;slot1;slot0", 0, ply, ply);
 			EntFireByHandle(MW2019_maxHealthMSG, "HideHudHint", "", 0, ply, ply);
 			EntFireByHandle(MW2019_maxHealthMSG, "ShowHudHint", "", 0.01, ply, ply);
@@ -105,9 +100,9 @@ function MW2019_Stim_Check()
 
 function OnNewRound()
 {
+	SendToConsole("healthshot_health 0");
 	SendToConsoleServer("sv_health_approach_enabled 0");
 	SendToConsoleServer("healthshot_healthboost_time 0");
-	SendToConsoleServer("healthshot_health 0");
 	SendToConsoleServer("healthshot_healthboost_speed_multiplier 1.0");
 	SendToConsoleServer("healthshot_healthboost_damage_multiplier 1.0");
 	SendToConsoleServer("sv_health_approach_speed 0");

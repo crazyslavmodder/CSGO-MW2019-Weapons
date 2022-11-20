@@ -31,10 +31,13 @@ function MW2019_Armor_Check()
 		if (!armorScope.rawin("IsArmorUsed"))
 		{
 			armorScope.armorLeave <- false;
+			armorScope.armorCount <- 4;
+			armorScope.armorCountAlt <- 4;
 			armorScope.IsArmorUsed <- false;
 		}
 		
 		local armorToKill = null;
+		local armorToKill2 = null;
 		local armorWeapon = null;
 		while (armorWeapon = Entities.FindByModel(armorWeapon, MW2019_Armor_MDL01))
 		{
@@ -44,19 +47,27 @@ function MW2019_Armor_Check()
 				break;
 			}
 		}
-		if (armorToKill == null)
+		if (armorToKill == null) armorScope.armorCount = 4;
+		
+		if (armorToKill2 == null)
 		while (armorWeapon = Entities.FindByModel(armorWeapon, MW2019_Armor_MDL02))
 		{
 			if (armorWeapon.GetClassname() == "weapon_taser" && armorWeapon.GetOwner() == ply)
 			{
-				armorToKill = armorWeapon;
+				armorToKill2 = armorWeapon;
 				break;
 			}
 		}
+		if (armorToKill2 == null) armorScope.armorCountAlt = 4;
 		
 		if(vm.GetModelName() != MW2019_Armor_MDL01 && vm.GetModelName() != MW2019_Armor_MDL02)
 		{
-			if (armorScope.IsArmorUsed == true && ply.GetHealth() > 0) EntFireByHandle(armorToKill, "Kill", "", 0, ply, ply);
+			if (armorScope.IsArmorUsed == true && ply.GetHealth() > 0)
+			{
+				if (armorToKill != null && armorScope.armorCount < 1) EntFireByHandle(armorToKill, "Kill", "", 0, ply, ply);
+				if (armorToKill2 != null && armorScope.armorCountAlt < 1) EntFireByHandle(armorToKill2, "Kill", "", 0, ply, ply);
+			}
+			
 			armorScope.IsArmorUsed = false;
 			continue;
 		}
@@ -66,10 +77,14 @@ function MW2019_Armor_Check()
 		{
 			armorScope.IsArmorUsed = true;
 			armorScope.armorLeave = false;
+			if (armorScope.armorCount > 0 && vm.GetModelName() == MW2019_Armor_MDL01) armorScope.armorCount--;
+			else if (armorScope.armorCountAlt > 0 && vm.GetModelName() == MW2019_Armor_MDL02) armorScope.armorCountAlt--;
+			
 			local armorItem = Entities.CreateByClassname("prop_weapon_upgrade_armor");
 			armorItem.SetHealth(25);
 			EntFireByHandle(armorItem, "Use", "", 0, ply, ply);
 		}
+		
 		if (armorAnimState == "cancel" && armorScope.armorLeave == false)
 		{
 			armorScope.armorLeave = true;

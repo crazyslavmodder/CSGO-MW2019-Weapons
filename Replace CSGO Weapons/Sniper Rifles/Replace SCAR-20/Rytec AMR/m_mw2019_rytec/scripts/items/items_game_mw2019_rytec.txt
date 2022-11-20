@@ -20,7 +20,6 @@
 			}
 			"used_by_classes"
 			{
-				"terrorists"		"1"
 				"counter-terrorists"		"1"
 			}
 			"attributes"
